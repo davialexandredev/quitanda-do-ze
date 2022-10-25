@@ -23,6 +23,13 @@ main{
     background: #F28705;
     border-radius: 20px;
     margin: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.250);
+}
+
+.col:hover{
+    width: 220px;
+    height: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.500);
 }
 
 h2{
