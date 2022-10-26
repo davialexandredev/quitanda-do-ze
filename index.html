@@ -12,7 +12,7 @@
     </head>
     <body>
         <!-- NAVBAR -->
-        <header>
+        <header id="home">
             <nav>
                     <a class="logo" href="#">Quitanda do Zé</a>
                     <div class="mobile-menu">
@@ -21,9 +21,10 @@
                         <div class="line3"></div>
                     </div>
                     <ul class="nav-list">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#home">Home</a></li>
                         <li><a href="#produtos">Produtos</a></li>
                         <li><a href="#contatos">Contatos</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
                 </ul>
             </nav>
         </header>
@@ -84,10 +85,12 @@
 
         <!-- RODAPÉ-->
         <footer>
-          <a class="logo" href="/">Quitanda do Zé</a>
-          <p class="descricao">Este projeto foi criado para colocar em prática os estudos da aulas de Desenvolvimeto Web da UNIBRASIL.</p>
+          <a class="logo" href="#home">Quitanda do Zé</a>
+          <a id="sobre" href="#">Sobre</a>
+          <p class="descricao">Este projeto foi criado para colocar em prática os estudos das aulas de Desenvolvimeto Web da UNIBRASIL.</p>
+          <p class="descricao">Desenvolvido por: <span>Davi Alexandre</span></p>
         </footer>
-        <script src="assets/js/scripts.js"></script>
+        <script src="assets/js/app.js"></script>
         <script src="assets/js/mobile-navbar.js"></script>
     </body>
 </html>
