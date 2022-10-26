@@ -1,5 +1,5 @@
 body{
-    background-color: #f2f0d57e;
+    background-color: #f2f0d5c2;
     overflow-x: hidden;
 }
 main{
@@ -49,8 +49,7 @@ p{
     color: #547a03;
     font-weight: lighter
 }
-
-.col {
+.col{
     display: inline-block;
     width: 200px;
     background: #fff;
@@ -163,4 +162,36 @@ span{
     .produtos-semana{
         margin-right: 30px;
     }
+}
+
+/*Produtos Indisponiveis*/
+
+.inds-h2{
+    color: #00000098;
+    font-weight: lighter;
+}
+
+.preco-inds{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #0000007a;
+}
+
+.codigo-inds{
+    background: none;
+    color: #000000;
+    border-style: dashed;
+    border-color: #000000d8;
+    border-width: 1px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.col:hover > .codigo-inds{
+    background-color: white;
+}
+
+.col:hover > .preco-inds{
+    background-color: #0000007a;;
 }
