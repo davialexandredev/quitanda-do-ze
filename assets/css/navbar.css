@@ -27,7 +27,10 @@ nav {
     align-items: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: #6e9124;
+    width: 100%;
     height: 8vh;
+    z-index: 100;
+    position: fixed;
 }
 
 .nav-list {
