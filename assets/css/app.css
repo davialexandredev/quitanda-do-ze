@@ -55,7 +55,7 @@ p{
     background: #fff;
     border-radius: 10px;
     margin: 15px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.200);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.300);
     
 }
 
@@ -137,7 +137,7 @@ p{
 footer{
     background: #547a03;
     padding: 50px;
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.200);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.300);
 }
 
 #sobre{
