@@ -1,8 +1,7 @@
 body{
-    background: url(/assets/img/fundo.png) no-repeat center;
-    background-size: cover;
+    background-image: url(/assets/img/fundo.png);
+    background-color: #f2f0d57e;
 }
-
 main{
     margin: auto;
     padding: 20px;
