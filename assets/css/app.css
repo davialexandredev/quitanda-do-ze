@@ -142,9 +142,10 @@ span{
     main{
         margin: 0cm;
         padding: 15px;
+        width: 100%;
     }
     .col{
-        width: 140px;
+        width: 160px;
         padding: 1px;
         margin: 0px;
         margin-bottom: 10px;
@@ -158,5 +159,8 @@ span{
     }
     .nome-especial{
         font-size: 12px;
+    }
+    .produtos-semana{
+        margin-right: 30px;
     }
 }
