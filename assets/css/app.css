@@ -1,5 +1,6 @@
 body{
-    background-image: url(/assets/img/fundo.png);
+    background: url(/assets/img/fundo.png) no-repeat center;
+    background-size: cover;
 }
 
 main{
