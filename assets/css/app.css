@@ -108,10 +108,10 @@ footer{
 
 @media (max-width: 999px){
     .col{
-        width: 300px;
+        width: 280px;
     }
     .col:hover{
-        width: 305px;
+        width: 280px;
     }
     span{
         font-size: 0.8em;
