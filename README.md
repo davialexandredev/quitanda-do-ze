@@ -1,2 +1,4 @@
 # quitanda-do-ze
- Estudo Prático de Aprendizagem Aluno: Davi Alexandre Instituição: UNIBRASIL
+ Estudo Prático de Aprendizagem.
+ Aluno: Davi Alexandre.
+ Instituição: UNIBRASIL.
