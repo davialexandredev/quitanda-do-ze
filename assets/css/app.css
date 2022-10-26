@@ -34,7 +34,6 @@ main{
 
 .col:hover{
     width: 210px;
-    height: 290px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.500);
 }
 
@@ -106,4 +105,16 @@ footer{
 
 .descricao{
     margin: 0; 
+}
+
+@media (max-width: 999px){
+    .col{
+        width: 300px;
+    }
+    .col:hover{
+        width: 320px;
+    }
+    span{
+        font-size: 0.8em;
+    }
 }
