@@ -29,10 +29,6 @@ nav {
     height: 8vh;
 }
 
-main {
-    background-image: url(/assets/img/fundo.png);
-}
-
 .nav-list {
     list-style: none;
     display: flex;
