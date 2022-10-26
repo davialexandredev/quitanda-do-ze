@@ -142,7 +142,7 @@ span{
 @media (max-width: 999px){
 
     .col{
-        width: 150px;
+        width: 130px;
         padding: 0px;
         margin: 5px;
     }
@@ -150,8 +150,8 @@ span{
         padding: 0px;
     }
     img{
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
     }
     .contato{
         font-size: 0.8em;
