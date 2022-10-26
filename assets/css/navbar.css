@@ -31,6 +31,7 @@ nav {
     height: 8vh;
     z-index: 100;
     position: fixed;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.150);
 }
 
 .nav-list {
