@@ -61,7 +61,6 @@ p{
 }
 
 .col:hover{
-    padding: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.500);
 }
 
@@ -140,14 +139,15 @@ span{
 }
 
 @media (max-width: 999px){
-
-    .col{
-        width: 130px;
-        padding: 0px;
-        margin: 5px;
+    main{
+        margin: 0cm;
+        padding: 15px;
     }
-    .col:hover{
-        padding: 0px;
+    .col{
+        width: 140px;
+        padding: 1px;
+        margin: 0px;
+        margin-bottom: 10px;
     }
     img{
         width: 130px;
