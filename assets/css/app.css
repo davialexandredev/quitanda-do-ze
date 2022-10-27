@@ -61,25 +61,9 @@ p{
     background: #717336;
 }
 
-.galery{
-    margin: auto;
-    width: 640px;
-    height: 360px;
-    overflow: hidden;
+.banner img {
+    width: 60%;
 }
-
-.galery .fotos{
-    width: 500%;
-    animation-name: animacao;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-
-.galery .fotos img {
-    width: 19.9%;
-    border-radius: 5px;
-}
-
 .col{
     display: inline-block;
     width: 200px;
@@ -217,23 +201,9 @@ span{
     .produtos-semana{
         margin-right: 30px;
     }
-    .galery{
-        margin: auto;
-        width: 355%;
-        height: 200px;
-        overflow: hidden;
-    }
-    
-    .galery .fotos{
-        width: 180%;
-        animation-name: animacao;
-        animation-duration: 20s;
-        animation-iteration-count: infinite;
-    }
-    
-    .galery .fotos img {
-        width: 13.5%;
-        height: 200px;
+
+    .banner img {
+        width: 100%;
     }
 }
 
