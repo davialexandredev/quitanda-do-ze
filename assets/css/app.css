@@ -225,14 +225,14 @@ span{
     }
     
     .galery .fotos{
-        width: 178%;
+        width: 180%;
         animation-name: animacao;
         animation-duration: 20s;
         animation-iteration-count: infinite;
     }
     
     .galery .fotos img {
-        width: 13.9%;
+        width: 13.5%;
         height: 200px;
     }
 }
