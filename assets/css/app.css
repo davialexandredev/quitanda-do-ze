@@ -51,6 +51,12 @@ p{
     font-weight: lighter
 }
 
+.banner {
+    width: 55%;
+    height: 30%;
+    border-radius: 5px;
+}
+
 .divisao{
     margin: auto;
     margin-top: 30px;
@@ -196,6 +202,10 @@ span{
     }
     .produtos-semana{
         margin-right: 30px;
+    }
+    .banner {
+        width: 100%;
+        height: 30%;
     }
 }
 
