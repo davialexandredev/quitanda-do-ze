@@ -22,4 +22,5 @@ function scrollToPosition(to){
         behavior : "smooth",
     });
 }
+;
 

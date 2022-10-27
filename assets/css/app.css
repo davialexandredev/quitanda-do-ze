@@ -51,11 +51,6 @@ p{
     font-weight: lighter
 }
 
-.banner {
-    width: 55%;
-    height: 30%;
-    border-radius: 5px;
-}
 
 .divisao{
     margin: auto;
@@ -64,6 +59,24 @@ p{
     width: 80%;
     height: 1px;
     background: #717336;
+}
+
+.galery{
+    margin: auto;
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+}
+
+.galery .fotos{
+    width: 500%;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.galery .fotos img {
+    width: 19.9%;
 }
 
 .col{
@@ -178,7 +191,7 @@ span{
     font-weight: bold;
 }
 
-@media (max-width: 999px){
+@media (max-width: 990px){
     main{
         margin: 0cm;
         padding: 15px;
@@ -203,9 +216,23 @@ span{
     .produtos-semana{
         margin-right: 30px;
     }
-    .banner {
-        width: 100%;
-        height: 30%;
+    .galery{
+        margin: auto;
+        width: 355%;
+        height: 200px;
+        overflow: hidden;
+    }
+    
+    .galery .fotos{
+        width: 180%;
+        animation-name: animacao;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+    }
+    
+    .galery .fotos img {
+        width: 13.9%;
+        height: 200px;
     }
 }
 
