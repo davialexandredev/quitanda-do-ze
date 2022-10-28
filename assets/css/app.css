@@ -62,7 +62,10 @@ p{
 }
 
 .banner img {
-    width: 60%;
+    width: 50%;
+    height: 20%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.288);
 }
 .col{
     display: inline-block;
@@ -176,7 +179,7 @@ span{
     font-weight: bold;
 }
 
-@media (max-width: 990px){
+@media (max-width: 980px){
     main{
         margin: 0cm;
         padding: 15px;
@@ -201,9 +204,23 @@ span{
     .produtos-semana{
         margin-right: 30px;
     }
-
-    .banner img {
+    .banner img{
         width: 100%;
+        height: 50%;
+    }
+}
+
+@media (min-width: 600px){
+    .banner img{
+        width: 80%;
+        height: 20%;
+    }
+}
+
+@media (min-width: 800px){
+    .banner img{
+        width: 60%;
+        height: 20%;
     }
 }
 
